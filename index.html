@@ -1,100 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mechanical Engineering Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-      line-height: 1.6;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 15px;
-      background-color: #1f2937;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 50px 20px;
-      max-width: 800px;
-      margin: auto;
-      border-bottom: 1px solid #ddd;
-    }
-    h1, h2 {
-      color: #1f2937;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      padding: 8px 0;
-      font-size: 1.1rem;
-    }
-    li i {
-      margin-right: 10px;
-      color: #002D62; /* UTSA Blue accent */
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intel - Global Sustainability & Localization</title>
+    <!-- Bootstrap 5 RTL CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  </head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light text-dark">
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Intel Global</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#home">الرئيسية</a>
+                <a class="nav-link" href="#about">من نحن</a>
+                <a class="nav-link" href="#initiatives">المبادرات</a>
+                <a class="nav-link" href="#contact">اتصل بنا</a>
+            </div>
+        </div>
+    </nav>
 
-  <section id="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Showcasing engineering principles, CAD designs, and web development.</p>
-  </section>
+    <!-- Hero Section -->
+    <header id="home" class="py-5 text-center bg-white border-bottom">
+        <div class="container">
+            <h1 class="display-5 fw-bold text-primary">الابتكار التكنولوجي والاستدامة العالمية</h1>
+            <p class="lead text-secondary">نعمل على تمكين مستقبل أكثر استدامة وشمولية لجميع شعوب العالم.</p>
+        </div>
+    </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Welcome! I'm a junior mechanical engineering major at UTSA. Explore my portfolio to see how I combine analytical problem-solving with creative web development and engineering projects.</p>
-  </section>
-<section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><i class="fa-solid fa-gears"></i> SolidWorks & Engineering Design</li>
-            <li><i class="fa-solid fa-compass-drafting"></i> Technical Drawing & Measurements</li>
-            <li><i class="fa-solid fa-file-excel"></i> Microsoft Office (Word, Excel, PowerPoint)</li>
-        </ul>
+    <!-- About Section -->
+    <section id="about" class="py-5 container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <h2 class="h3 mb-3">رؤيتنا العالمية</h2>
+                <p class="text-muted">في إنتل، نؤمن بأن التكنولوجيا قادرة على خلق عالم أفضل. من خلال ممارسات التصميم الشامل والحلول الصديقة للبيئة، نضمن وصول الابتكار إلى كل ركن من أركان العالم بلغاتهم وثقافاتهم المختلفة.</p>
+            </div>
+        </div>
     </section>
 
-  <section id="projects">
-    <h2>Engineering Projects</h2>
-    <div class="project-card">
-      <h3>Mechanical Design Project</h3>
-      <p>Focused on structural analysis, prototyping, and material selection for optimized performance.</p>
-    </div>
-  </section>
+    <!-- Responsive Three-Column Section with Icons -->
+    <section id="initiatives" class="py-5 bg-white border-top border-bottom">
+        <div class="container">
+            <h2 class="text-center mb-5">مبادرات الاستدامة العالمية</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <i class="fa-solid fa-leaf fa-3x text-success mb-3" aria-hidden="true"></i>
+                    <h3>الطاقة المتجددة</h3>
+                    <p class="text-muted">التحول التدريجي نحو تشغيل مرافق التصنيع التابعة لنا بنسبة 100% عبر مصادر طاقة نظيفة ومتجددة.</p>
+                    <a href="#" class="btn btn-primary">اعرف المزيد</a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fa-solid fa-water fa-3x text-info mb-3" aria-hidden="true"></i>
+                    <h3>حفظ المياه</h3>
+                    <p class="text-muted">الالتزام بإعادة وتوفير كميات من المياه تعادل أو تفوق ما نقوم باستهلاكه في عملياتنا العالمية بحلول عام 2030.</p>
+                    <a href="#" class="btn btn-primary">اعرف المزيد</a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fa-solid fa-recycle fa-3x text-warning mb-3" aria-hidden="true"></i>
+                    <h3>النفايات الصفرية</h3>
+                    <p class="text-muted">تحقيق معدلات نفايات صفرية تذهب إلى المكبات عبر تطبيق معايير إعادة التدوير المتقدمة.</p>
+                    <a href="#" class="btn btn-primary">اعرف المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Feel free to reach out via email or connect with me on LinkedIn to discuss engineering and tech!</p>
-  </section>
+    <!-- Subscription Form Section -->
+    <section id="newsletter" class="py-5 container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2>النشرة البريدية للاستدامة</h2>
+                <p class="text-muted">اشترك لتلقي آخر التحديثات حول مبادراتنا البيئية العالمية.</p>
+                <form class="mt-3">
+                    <div class="mb-3">
+                        <label for="emailInput" class="form-label visually-hidden">البريد الإلكتروني</label>
+                        <input type="email" class="form-control text-end" id="emailInput" placeholder="أدخل بريدك الإلكتروني" aria-label="البريد الإلكتروني" required>
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100">اشتراك</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 شركة إنتل. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
